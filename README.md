@@ -8,13 +8,13 @@ _**Don't forget to take a look at the demo video attached to this project**_
 
 The main steps of the project are:
 
-Step 1: select the region of interest
+**Step 1:** select the region of interest
 
-Step 2: extract the hand and separate it from the background using watershed algorithm
+**Step 2:** extract the hand and separate it from the background using watershed algorithm
 
-Step 3: create a new image in which the fingers being held up are segmented. This was performed using a sliding window approach as follows: for each pixel of the ROI, the sum of pixels of the right half of the window are subtracted from those of its left half
+**Step 3:** create a new image in which the fingers being held up are segmented. This was performed using a sliding window approach as follows: for each pixel of the ROI, the sum of pixels of the right half of the window are subtracted from those of its left half
 
-Step 4: denoise the image using opening morphological operation
+**Step 4:** denoise the image using opening morphological operation
 
-Step 5: count fingers using contours detection algorithm
+**Step 5:** count fingers using contours detection algorithm
 
