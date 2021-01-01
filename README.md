@@ -1,4 +1,7 @@
 # Hand-finger-counting
+(Don't forget to take a look at the demo video attached to this project)
+
+
 We present a real-time finger counting project using Python (OpenCV and NumPy).
 
 The developed system quickly recognizes the hand fingers being help up and counts them from a live video input. 
